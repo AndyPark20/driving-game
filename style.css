@@ -9,7 +9,6 @@ body {
 }
 
 img {
-  position: absolute;
   width: 80%;
   transition: all 0.3s ease;
   padding: 4%;

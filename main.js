@@ -6,6 +6,7 @@ var myCar ={
   xCoordinate:'',
   yCoordinate:'',
   directions:''
+  motion:false;
 };
 
 var intervalId=null;
