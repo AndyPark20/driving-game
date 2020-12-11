@@ -1,0 +1,22 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #288d26;
+}
+
+img {
+  width: 30%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.carStyle {
+  position: absolute;
+}
