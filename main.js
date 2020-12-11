@@ -1,6 +1,5 @@
 $varImage = document.querySelector('img');
 
-
-document.addEventListener('click',function(){
-  console.log('hello')
-})
+var myCar ={
+  directions:''
+};
