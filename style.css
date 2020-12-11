@@ -8,10 +8,9 @@ body {
 }
 
 img {
-  border:1px solid black;
   width: 30%;
   transition: all 0.3s ease;
-  padding:3%;
+  padding:4%;
 }
 
 .container {
