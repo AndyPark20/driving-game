@@ -6,6 +6,8 @@ var myCar ={
   directions:''
 };
 
+var intervalId=null;
+
 document.addEventListener('keydown',function(e){
   $varImage.className ='';
   if(e.keyCode ===39){
