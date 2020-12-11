@@ -4,11 +4,12 @@
 }
 
 body {
+  width: 100%;
   background-color: #288d26;
 }
 
 img {
-  width: 30%;
+  width: 80%;
   transition: all 0.3s ease;
   padding:4%;
 }
