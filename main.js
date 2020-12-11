@@ -1,6 +1,8 @@
 $varImage = document.querySelector('img');
 
 var myCar ={
+  x-coordinate:'',
+  y-coordinate:'',
   directions:''
 };
 
@@ -19,6 +21,7 @@ document.addEventListener('keydown',function(e){
     myCar.directions= 'north';
     $varImage.classList.add(myCar.directions)
   }
+
 
 
 })
