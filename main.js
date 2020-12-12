@@ -10,8 +10,6 @@ var myCar = {
 };
 
 var intervalId = null;
-var distanceX = 0;
-var distanceY = 0;
 
 document.addEventListener('keydown', function (e) {
   if (e.keyCode === 39) {
