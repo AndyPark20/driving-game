@@ -25,7 +25,7 @@ document.addEventListener('keydown', function (e) {
 
   if (e.keyCode === 32 && myCar.motion === true) {
     intervalId = setInterval(function () {
-      myCar.xCoordinate +=15;
+      myCar.xCoordinate +=16;
       myCar.yCoordinate +=0;
       $carContainer.style.left = myCar.xCoordinate + 'px';
       $carContainer.style.top = myCar.yCoordinate + 'px';
@@ -37,7 +37,7 @@ document.addEventListener('keydown', function (e) {
   }else if (myCar.directions === 'east'){
     clearInterval(intervalId);
     intervalId = setInterval(function () {
-      myCar.xCoordinate += 15;
+      myCar.xCoordinate += 16;
       myCar.yCoordinate += 0;
       $carContainer.style.left = myCar.xCoordinate + 'px';
       $carContainer.style.top = myCar.yCoordinate + 'px';
@@ -47,7 +47,7 @@ document.addEventListener('keydown', function (e) {
     clearInterval(intervalId);
     intervalId = setInterval(function () {
       myCar.xCoordinate += 0;
-      myCar.yCoordinate += 15;
+      myCar.yCoordinate += 16;
       $carContainer.style.left = myCar.xCoordinate + 'px';
       $carContainer.style.top = myCar.yCoordinate + 'px';
       myCar.motion = false;
@@ -55,7 +55,7 @@ document.addEventListener('keydown', function (e) {
   } else if (myCar.directions === 'west') {
     clearInterval(intervalId);
     intervalId = setInterval(function () {
-      myCar.xCoordinate -= 15;
+      myCar.xCoordinate -= 16;
       myCar.yCoordinate += 0;
       $carContainer.style.left = myCar.xCoordinate + 'px';
       $carContainer.style.top = myCar.yCoordinate + 'px';
@@ -65,7 +65,7 @@ document.addEventListener('keydown', function (e) {
     clearInterval(intervalId);
     intervalId = setInterval(function () {
       myCar.xCoordinate -= 0;
-      myCar.yCoordinate -= 15;
+      myCar.yCoordinate -= 16;
       $carContainer.style.left = myCar.xCoordinate + 'px';
       $carContainer.style.top = myCar.yCoordinate + 'px';
       myCar.motion = false;
