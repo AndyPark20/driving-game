@@ -9,10 +9,9 @@ body {
 }
 
 img {
-  position: absolute;
-  width: 80%;
+  width:150px;
   transition: all 0.3s ease;
-  padding: 4%;
+  padding: 5px;
 }
 
 .container {
